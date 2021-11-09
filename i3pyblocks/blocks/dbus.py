@@ -255,7 +255,7 @@ class MediaPlayerBlock(DbusBlock):
         self.format = format
         self.color_playing = color_playing
         self.background_playing = background_playing
-        self.metadata: Dict[str, str] = {
+        self.metadata = {
             "artist": "",
             "title": "",
             "track_number": "",
